@@ -2,7 +2,7 @@
 
 void counting_function() {
     static int count{1};
-    std::cout << "Êîëè÷åñòâî âûçîâîâ ôóíêöèè counting_function(): " << count << "\n";
+    std::cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð²Ñ‹Ð·Ð¾Ð²Ð¾Ð² Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ counting_function(): " << count << "\n";
     ++count;
 }
 
