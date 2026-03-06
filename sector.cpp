@@ -6,8 +6,7 @@ void counting_function() {
     ++count;
 }
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
     setlocale(LC_ALL, "RUSSIAN");
     for (int i = 0; i < 15; i++)
     {
