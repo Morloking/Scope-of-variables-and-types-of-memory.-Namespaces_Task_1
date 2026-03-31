@@ -8,8 +8,7 @@ void counting_function() {
 
 int main(int argc, char** argv) {
     setlocale(LC_ALL, "RUSSIAN");
-    for (int i = 0; i < 15; i++)
-    {
+    for (int i = 0; i < 15; i++) {
         counting_function();
     }
 }
